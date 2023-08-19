@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="4" time="0.049" timestamp="2023-08-19T11:37:16.782039" hostname="aryaman-OMEN-by-HP-Laptop"><testcase classname="test_math" name="test_one_plus_one[2-3-1]" time="0.001"><failure message="assert (2 * 3) == 1">a = 2, b = 3, product = 1
+
+    @pytest.mark.parametrize('a,b,product', products)
+    def test_one_plus_one(a, b, product):
+&gt;       assert a * b == product
+E       assert (2 * 3) == 1
+
+test_math.py:12: AssertionError</failure></testcase><testcase classname="test_math" name="test_one_plus_one[1-1-1]" time="0.001" /><testcase classname="test_math" name="test_one_plus_one[1-2-2]" time="0.001" /><testcase classname="test_math" name="test_one_plus_one[2-2-4]" time="0.001" /></testsuite></testsuites>
