@@ -1,2 +1,2 @@
-PyDelhi conf 2023
--Work of 2 labs that I attended
+<h2>PyDelhi conf 2023</h2> <br>
+Work of 2 labs that I attended
